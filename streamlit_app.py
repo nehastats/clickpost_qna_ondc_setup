@@ -2,7 +2,7 @@ import streamlit as st
 import QnA_setup_with_llama as main
 import os
 
-st.title("Chat with PDFs using llama-3.2")
+st.title("QA System for ONDC Policy documents")
 
 uploaded_files = st.file_uploader(
     "Upload one or more PDFs",

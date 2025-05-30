@@ -1,9 +1,9 @@
 # ONDC QA System using RAG (LLM + FAISS + Embeddings)
 
-This repository implements a Retrieval-Augmented Generation (RAG) pipeline to perform Question Answering (QA) over ONDC policy documents using:
-- SentenceTransformer (all-MiniLM-L6-v2) for embedding
+This repository implements a `Retrieval-Augmented Generation (RAG)` pipeline to perform Question Answering (QA) over ONDC policy documents using:
+- SentenceTransformer (`all-MiniLM-L6-v2`) for embedding
 - FAISS for vector search
-- Ollama's llama3.2 for LLM-based answer generation
+- Ollama's `llama3.2` for LLM-based answer generation
 - Streamlit for an interactive chat interface
 
 ## Design Architecture:
@@ -114,7 +114,7 @@ Visit: http://localhost:8501
 
 **Notes:**
 
-- Ensure llama3.2 is pulled via Ollama before use
+- Ensure `llama3.2` is pulled via Ollama before use
 - Models and processing run locally — no cloud calls
 - Chat history is preserved across interactions during the same session
 
@@ -150,4 +150,4 @@ Total Monthly	              ~$0 if self-hosted
 ## Files
 
 - `streamlit_app.py` – Frontend and chat logic.
-- 'QnA_setup_with_llama.py' – Backend setup: loading PDFs, creating vector DB, embeddings, and query processing.
+- `QnA_setup_with_llama.py` – Backend setup: loading PDFs, creating vector DB, embeddings, and query processing.
